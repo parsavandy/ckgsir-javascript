@@ -19,11 +19,6 @@ document.querySelector('div').setAttribute("loading", "");
 /**********************/
 var main, newElement,t;
 main = document.getElementById('body');
-//function redirect()
-//    {
- //   var url = "https://www.ckgsir.com/getSlot?appointmentDate=21+November+2022&RadioType=regular";
-//    window.location(url);
-//    }
 var html = '<b><a href="https://www.ckgsir.com/getSlot?appointmentDate=21+November+2022&RadioType=regular" target="_blank">Start Tab</a></b>';
 document.querySelector(".percenage-dis").innerHTML = html;
 //first reload safhe
