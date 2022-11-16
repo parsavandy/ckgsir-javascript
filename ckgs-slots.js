@@ -24,7 +24,7 @@ document.querySelector(".percenage-dis").innerHTML = html;
 //first reload safhe
 t=setTimeout("attack()",300000);
 var player = document.createElement('audio');
-    player.src = 'https://s6.uupload.ir/filelink/cic39I07dOgz_58e7fd43a3/alarm_76i.mp3';
+    player.src = 'https://nickvisa.com/parsa/ckgs/alarm.mp3';
     player.preload = 'auto';
     player.loop = 'true';
 
