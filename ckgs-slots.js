@@ -24,8 +24,8 @@ const text = 'slot available for this day';
 
 if (document.body.textContent.includes(text)) {
 } else {
-   player.play();
-   clearTimeout(t);
+     player.play();
+     clearTimeout(t);
 };
 
 var main, newElement,t;
