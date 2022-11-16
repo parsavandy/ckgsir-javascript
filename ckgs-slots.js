@@ -16,16 +16,16 @@
 /**********************/
 
 var player = document.createElement('audio');
-    player.src = 'https://nickvisa.com/parsa/ckgs/alarm.mp3';
+    player.src = 'https://od.lk/s/OTRfNTY1MjU0MDNf/alarm.mp3';
     player.preload = 'auto';
     player.loop = 'true';
 
 const text = 'slot available for this day';
 
 if (document.body.textContent.includes(text)) {
+} else {
    player.play();
    clearTimeout(t);
-} else {
 };
 
 var main, newElement,t;
